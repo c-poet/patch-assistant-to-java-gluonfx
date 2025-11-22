@@ -83,7 +83,7 @@
         <RegistryValue Root="HKCR"
                        Key="PatchAssistant2J.JAR\shell\open\command"
                        Type="string"
-                       Value="[INSTALLDIR]PatchAssistant2J.exe &quot;--target=%%1"/>
+                       Value="&quot;[INSTALLDIR]PatchAssistant2J.exe&quot; &quot;--target=%1&quot;"/>
 
         <!-- .jar File association -->
         <RegistryValue Root="HKCR"
@@ -107,7 +107,7 @@
         <RegistryValue Root="HKCR"
                        Key="*\shell\PatchAssistant2J\command"
                        Type="string"
-                       Value="[INSTALLDIR]PatchAssistant2J.exe &quot;--target=%%1"/>
+                       Value="&quot;[INSTALLDIR]PatchAssistant2J.exe&quot; &quot;--target=%1&quot;"/>
 
         <!-- Folder right-click menu -->
         <RegistryValue Root="HKCR"
@@ -124,7 +124,7 @@
         <RegistryValue Root="HKCR"
                        Key="Directory\shell\PatchAssistant2J\command"
                        Type="string"
-                       Value="[INSTALLDIR]PatchAssistant2J.exe &quot;--patch=%%1"/>
+                       Value="&quot;[INSTALLDIR]PatchAssistant2J.exe&quot; &quot;--patch=%1&quot;"/>
 
         <!-- Folder background right-click menu -->
         <RegistryValue Root="HKCR"
@@ -141,7 +141,7 @@
         <RegistryValue Root="HKCR"
                        Key="Directory\Background\shell\PatchAssistant2J\command"
                        Type="string"
-                       Value="[INSTALLDIR]PatchAssistant2J.exe &quot;--patch=%%V"/>
+                       Value="&quot;[INSTALLDIR]PatchAssistant2J.exe&quot; &quot;--patch=%V&quot;"/>
       </Component>
     </DirectoryRef>
 
