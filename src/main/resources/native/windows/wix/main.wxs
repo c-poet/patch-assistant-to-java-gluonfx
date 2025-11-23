@@ -104,6 +104,12 @@
                        Type="string"
                        Value="PatchAssistant2J"/>
 
+       <RegistryValue Root="HKCR"
+                      Key="*\shell\PatchAssistant2J"
+                      Name="Icon"
+                      Type="string"
+                      Value="[INSTALLDIR]PatchAssistant2J.exe,0"/>
+
         <RegistryValue Root="HKCR"
                        Key="*\shell\PatchAssistant2J\command"
                        Type="string"
